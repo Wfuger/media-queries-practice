@@ -1,0 +1,43 @@
+#nav{
+
+  height: 75px;
+  background-color: rgba(74, 71, 65, 0.7)
+  justify-content: center;
+}
+.menuItem {
+  width: calc(100%/6);
+  height: 100%;
+  color: rgb(255, 245, 248)
+  border: 100px solid blue;
+  display: inline-block;
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+  margin: -2px;
+}
+.menuItem:hover{
+  background-color: white;
+}
+#home{
+  background-color: red;
+}
+#products{
+  background-color: blue;
+}
+#services{
+  background-color: yellow;
+}
+#partners{
+  background-color: green;
+}
+#contact{
+  background-color: orange;
+}
+#about{
+  background-color: lime;
+}
+@media only screen and (max-width : 767px) {
+  .menuItem{
+      width: calc(100%/3);
+  }
+}
